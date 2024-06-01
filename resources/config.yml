@@ -1,0 +1,27 @@
+# ███╗░░░███╗░░██╗██╗████████╗██╗░░██╗███████╗██╗░░░██╗░██████╗
+# ████╗░████║░██╔╝██║╚══██╔══╝██║░░██║██╔════╝██║░░░██║██╔════╝
+# ██╔████╔██║██╔╝░██║░░░██║░░░███████║█████╗░░██║░░░██║╚█████╗░
+# ██║╚██╔╝██║███████║░░░██║░░░██╔══██║██╔══╝░░██║░░░██║░╚═══██╗
+# ██║░╚═╝░██║╚════██║░░░██║░░░██║░░██║███████╗╚██████╔╝██████╔╝
+# ╚═╝░░░░░╚═╝░░░░░╚═╝░░░╚═╝░░░╚═╝░░╚═╝╚══════╝░╚═════╝░╚═════╝░
+# Arquivo de configuração do plugin Spectator
+
+# ⟩ Esconde o ip do jogador quando você usa /s <jogador>, é recomendável deixar ativada
+# ⟩ Valores: true (ativado) e false (desativado)
+# ⟩ Padrão: true
+hide.player.ip: true
+
+# ⟩ Permissão necessária para usar o comando
+# ⟩ Valores: qualquer um, só precisa ser um texto...
+# ⟩ Padrão: spectator.use
+command.perm: "spectator.use"
+
+# ⟩ Uso do comando, enviado ao jogador quando ele não coloca nenhum argumento
+# ⟩ Valores: qualquer um, só precisa ser um texto...
+# ⟩ Padrão: §8» §cUse /spectate <jogador>
+command.usage: "§8» §cUse /spectate <jogador>"
+
+# ⟩ Mensagem enviada quando o alvo (jogador) está offline
+# ⟩ Valores: qualquer um, só precisa ser um texto...
+# ⟩ Padrão: §8» §cJogador offline
+command.offlineplayer: "§8» §cJogador offline"

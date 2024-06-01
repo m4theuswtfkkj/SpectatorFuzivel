@@ -1,0 +1,13 @@
+name: Spectator
+description: Uma cópia do plugin de /s (espectar um jogador) da fuzivel (servidor de mcpe 0.14.3)
+author: M4theuskkj
+api: 2.0.0
+main: Spectator\Main
+version: 0.1
+
+commands:
+    spectate:
+        description: "Dê uma olhada em um jogador"
+        aliases: ["s", "spec"]
+    ss:
+        description: "Volte ao gamemode 0..."
